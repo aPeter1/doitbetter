@@ -1,0 +1,89 @@
+* {
+  font-family: 'Courier New', monospace;
+}
+
+h1 {
+  font-family: 'Helvetica', monospace;
+  color: rgb(63, 63, 63);
+  font-weight: bold;
+}
+
+h4, h5, h6 {
+  font-family: 'Helvetica', monospace;
+  color: rgb(122, 135, 255);
+  font-weight: bold;
+}
+
+.banner {
+  padding: 20px;
+}
+
+.home-about {
+  position: relative;
+  text-align: center;
+  color: rgb(218, 218, 218);
+}
+
+.image-text {
+  position: absolute;
+  align-content: left;
+  width: 20%;
+  top: 45%;
+  left: 84%;
+  transform: translate(-50%, -50%);
+}
+
+.challenge-card {
+  padding: 20px;
+  margin: 20px;
+  
+}
+
+.challenge-feed {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.solution-card {
+  /* padding: 20px; */
+  margin: 20px;
+  width: 300px;
+}
+
+.solution-feed-container {
+  display: flex;
+  justify-content: center;
+}
+
+.solution-feed {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;  
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 900px) {
+  .solution-card {
+    float: right;
+    
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 901px) {
+  .challenge-card {
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    justify-content: center;
+  }
+}
